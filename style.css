@@ -1,0 +1,47 @@
+.part-1 {
+    background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 50px;
+    padding: 20px 0px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+a, .text-1 p {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.content-1{
+    margin: 0px 50px;
+    display: flex;
+}
+.text-1 h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 28px;
+    border-radius: 10px;
+}
+.content-1 img {
+    transform: rotate(90deg);
+    margin: 0px 80px;
+}
+
