@@ -1,12 +1,15 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
 .part-1 {
     background-color: #1F2937;
-    font-family: Roboto, sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 50px 50px;
+    margin: 0px 100px 50px;
     padding: 20px 0px;
 }
 .header-logo {
@@ -23,16 +26,25 @@ a, .text-1 p {
     color: #E5E7EB;
     font-size: 18px;
     line-height: 20px;
+    margin: 10px 0px;
 }
-
 .content-1{
-    margin: 0px 50px;
+    margin: 0px 100px;
     display: flex;
+    gap: 100px;
+
+}
+.content-1 img {
+    width: 200px;
+}
+.text-1 {
+    max-width: 500px;
 }
 .text-1 h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 button {
     background-color: #3882F6;
@@ -45,3 +57,23 @@ button {
     margin: 0px 80px;
 }
 
+.text-2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px;
+}
+.content-2 {
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    justify-content: center;
+}
+.content-2 img {
+    min-width: 50px; 
+    max-width: 100%;
+}
+.img1-2, .img2-2, .img3-2, .img4-2 {
+    max-width: 150px;
+}
