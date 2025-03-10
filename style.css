@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+
 .part-1 {
     background-color: #1F2937;
 }
@@ -12,14 +13,18 @@ body {
     margin: 0px 100px 50px;
     padding: 20px 0px;
 }
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
+
 .header-links {
     display: flex;
     gap: 20px;
 }
+
+
 
 a, .text-1 p {
     text-decoration: none;
@@ -28,34 +33,39 @@ a, .text-1 p {
     line-height: 20px;
     margin: 10px 0px;
 }
+
 .content-1{
     margin: 0px 100px;
     display: flex;
     gap: 100px;
 
 }
+
 .content-1 img {
     width: 200px;
+    transform: rotate(90deg);
+    margin: 0px 80px;
 }
+
 .text-1 {
     max-width: 500px;
 }
+
 .text-1 h1{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
     margin: 0;
 }
+
 button {
     background-color: #3882F6;
     color: white;
     padding: 7px 28px;
     border-radius: 10px;
 }
-.content-1 img {
-    transform: rotate(90deg);
-    margin: 0px 80px;
-}
+
+
 
 .text-2 {
     text-align: center;
@@ -70,10 +80,43 @@ button {
     gap: 100px;
     justify-content: center;
 }
+
 .content-2 img {
     min-width: 50px; 
     max-width: 100%;
 }
 .img1-2, .img2-2, .img3-2, .img4-2 {
     max-width: 150px;
+}
+
+
+.part-3 {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 70px;
+    gap: 0px;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    font-family: light italic;
+    color: #1F2937;
+}
+
+.quote-3 {
+    font-style: italic;
+    align-self: flex-start;
+    font-size: 36px;
+   /*  background-color: red; */
+    margin: 0;
+}
+
+.author-3 {
+    align-self: flex-end;
+    /* background-color: blue; */
+    margin: 0;
+    font-weight: bold;
+    font-size: 28px;
 }
